@@ -13,11 +13,11 @@ def mike():
 
 @app.route('/about')
 def about():
-    return render_template('about.html')
+    return render_template('about.html', pageTitle='About')
 
 @app.route('/estimate')
 def estimate():
-    return render_template('estimate.html')
-    
+    return render_template('estimate.html', pageTitle='Estimate')
+
 if __name__ == '__main__':
     app.run(debug=True)
