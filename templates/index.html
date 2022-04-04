@@ -3,4 +3,22 @@
 {% block title %} Welcome to the home page {% endblock %}
 
 
-{% block body %} Hello world! {% endblock %}
+{% block body %} 
+
+    <ul>
+        <li><a href="/"> Home </a></li>
+        <li><a href="about"> About </a></li>
+        <li><a href="estimate"> Estimate </a></li>
+    </ul>
+
+    <h2> Welcome to VTM! </h2> 
+    <br>
+    <hr>
+    
+    <img src="{{ url_for('static', filename='image/above_ground_vertical_tanks.jpg') }}" />
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget nibh suscipit augue accumsan facilisis dignissim nec nibh. In hac habitasse platea dictumst. Vestibulum aliquam aliquam justo, sed finibus mi lacinia ultricies. Duis varius justo sit amet tincidunt molestie. In pulvinar diam a sapien convallis congue. Curabitur pulvinar nulla ac sapien hendrerit, sed gravida nisl fringilla. Suspendisse ac volutpat quam.</p>
+    <p>Pellentesque euismod rhoncus diam, non lobortis ligula lobortis sit amet. Cras pellentesque luctus nulla at posuere. Mauris ut ante ullamcorper, ornare urna non, auctor arcu. Suspendisse quis lorem et ex egestas tincidunt. Quisque nunc augue, malesuada et tempus sit amet, placerat nec nisl. Curabitur in luctus odio, sit amet euismod est.
+
+        Maecenas et felis lorem. Nullam ut congue ipsum. Sed tincidunt tortor tempus ex commodo, id elementum quam porttitor. Quisque arcu erat, fermentum a erat quis, ornare pretium tortor. Donec at odio dictum, varius urna in, porta ligula. In rutrum, nisl euismod ullamcorper congue, quam purus auctor metus, vitae lacinia ipsum leo ultricies nisi. Sed eget ornare metus, sit amet vehicula est. Etiam ut vulputate mi.</p>
+ {% endblock %}

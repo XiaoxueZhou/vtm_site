@@ -3,4 +3,23 @@
 {% block title %} Welcome to About Page {% endblock %}
 
 
-{% block body %} About! {% endblock %}
+{% block body %} 
+    <ul>
+        <li><a href="/"> Home </a></li>
+        <li><a href="about"> About </a></li>
+        <li><a href="estimate"> Estimate </a></li>
+    </ul>
+    
+    <h2> About VTM </h2> 
+    <hr>
+
+    <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In blandit, nisl sit amet mattis scelerisque, turpis velit porta orci, nec placerat libero nisl condimentum lacus. Quisque eu dui felis. Proin consequat, diam in luctus sodales, est nisl eleifend eros, ac pretium dolor erat vel orci. Sed in nulla rhoncus lorem dictum mollis ac sit amet lacus. In eget lectus eu ex efficitur porttitor. Nulla vel nulla auctor, ullamcorper neque quis, facilisis massa. Aliquam a nulla eu ipsum tempus cursus porttitor at ipsum. In id nulla sem. Fusce pretium quam magna, at luctus risus convallis vel. Maecenas eget lorem ut arcu lobortis vehicula id eget odio. Donec lacus odio, posuere et nisl vel, eleifend mattis ligula. Vestibulum lobortis interdum eros quis semper. Curabitur cursus arcu et accumsan fringilla. Ut venenatis est in purus pharetra, scelerisque gravida nisi pretium. Praesent at blandit eros.</P>
+    <p>Nulla ornare tristique blandit. Curabitur ac ex ac augue tincidunt semper. Mauris sit amet eleifend lorem. Integer dapibus rutrum dolor quis malesuada. Sed et felis massa. Nullam consequat, elit et porttitor lacinia, ligula magna iaculis lacus, nec ornare sem magna porttitor nulla. Integer egestas urna magna, non fermentum mi euismod ac.</p>
+    <p>Nullam ultrices, velit quis rhoncus sodales, orci eros pulvinar arcu, a ornare orci magna eu magna. Sed sed nisl a mauris eleifend ultrices. Ut vitae euismod tortor. Quisque a enim ut nisl tempus dictum ac non quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum vel nunc sit amet nibh porta pharetra vel sed est. In vulputate aliquet quam et sodales. Nam convallis tellus vitae nisl vestibulum, vitae vestibulum orci suscipit. Aenean blandit magna metus, a ultrices velit elementum a. Nullam lacinia semper consequat. Curabitur non eleifend dui. In in nunc a eros rutrum lacinia. Cras vitae pretium nulla. Morbi et ante eu erat elementum pharetra eu non dolor.</p>
+    <p>Etiam interdum in diam a pulvinar. Sed ex erat, pretium et lorem id, imperdiet aliquet nibh. Nullam ut est ut odio tempus convallis. In quis dolor leo. Morbi egestas diam libero, non fermentum risus vehicula et. Vestibulum mattis libero nec mauris fermentum, eu tempus lorem interdum. Sed faucibus turpis in urna volutpat, in gravida lacus dignissim. Nam at enim ornare, cursus lorem pellentesque, tristique elit. Vestibulum scelerisque eu mauris vel ornare.</p>
+    <p>Proin at dui finibus, convallis ex vitae, auctor risus. Pellentesque nec mauris sit amet metus molestie ultrices at at eros. Mauris tincidunt luctus sem, non gravida nibh consectetur in. Fusce porttitor dictum semper. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse tincidunt euismod tortor ac rhoncus. Maecenas ultricies posuere placerat.</p>
+
+    <img src="{{ url_for('static', filename='image/president.jpg') }}" />
+
+
+{% endblock %}
