@@ -1,0 +1,6 @@
+[
+  "tests/functional/test_home.py::test_about_route",
+  "tests/functional/test_home.py::test_estimate_functionality",
+  "tests/functional/test_home.py::test_estimate_route",
+  "tests/functional/test_home.py::test_index_route"
+]
