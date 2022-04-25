@@ -20,7 +20,7 @@ def estimate():
         print(radius)
         print(height)
         TankTop = 3.14 * radius * radius
-        TankSide = 3.14 * radius * height
+        TankSide = 3.14 * radius * height * 2 * 2
         TotalArea = TankTop + TankSide
         Totalsf = TotalArea / 144
         MaterialCost = Totalsf * 25
