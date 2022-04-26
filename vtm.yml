@@ -82,6 +82,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
         with:
-          app-name: 'vtm-site2'
+          app-name: 'vtm-site'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_957D2B07D36C4DB682EE067A01908114 }}
